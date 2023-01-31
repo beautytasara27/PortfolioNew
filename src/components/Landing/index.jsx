@@ -1,7 +1,7 @@
 import { TypeAnimation } from "react-type-animation";
-import { useState } from "react";
+import { useState ,forwardRef} from "react";
 import Avatar from "../../assets/images/avatar.jpg";
-const Landing = () => {
+const Landing = forwardRef(({ScrollToSection}, ref) => {
   const [labelValue, setLabelValue] = useState("");
   const labels = ["Web Applications", "Mobile Applications", "APIs"];
   let count = 0;
@@ -19,10 +19,10 @@ const Landing = () => {
   };
   setInterval(cycleArray, 200);
   return (
-    <div className="flex justify-center h-screen items-center">
+    <div className="flex justify-center h-screen items-center my-10">
       <div className="w-full max-w-6xl">
         <div className="flex justify-center">
-          <div className="space-y-8">
+          <div ref={ref}  className="space-y-8">
             <div className="flex justify-center">
               {" "}
               <img className="w-[100px] rounded-full" src={Avatar} />
@@ -77,14 +77,14 @@ const Landing = () => {
               </button>
             </div>
             <div className="flex justify-center">
-              <span className="text-white">
+              <button className="text-white" onClick={()=>ScrollToSection("about")}>
                 <i className="fa-solid fa-2x fa-angles-down"></i>
-              </span>
+              </button>
             </div>
           </div>
         </div>
       </div>
     </div>
   );
-};
+});
 export default Landing;

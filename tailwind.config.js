@@ -8,6 +8,10 @@ module.exports = {
         theme: "#343454",
         themeDarker: "#302F4E",
         link: "#FFD15C",
+        yello:"#F9D74C",
+        bleu:"#6C6CE5",
+        pynk:"#F97B8B"
+        
       },
       fontFamily: {
         "rubik-regular": ["Rubik-Regular", "sans-serif"],
