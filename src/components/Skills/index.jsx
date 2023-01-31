@@ -1,14 +1,14 @@
 import { forwardRef } from "react";
 const Skills = forwardRef((props, ref) => {
   return (
-    <div className="flex justify-center w-full h-screen">
+    <div className="flex justify-center  mt-10 sm:mt-0 sm:h-screen mx-4 sm:mx-6 lg:mx-8 xl:0">
       <div className="max-w-6xl w-full">
         <div>
           <h1 ref={ref} className="scroll-mt-32 font-rubik-bold text-3xl mb-20">
             Skills
           </h1>
         </div>
-        <div className="grid grid-cols-3 gap-4 justify-center p-5 rounded-[30px] bg-themeDarker font-rubik-bold">
+        <div className="sm:grid grid-cols-3 gap-4 justify-center p-5 rounded-[30px] bg-themeDarker font-rubik-bold">
           <div className="space-y-4">
             <div className="space-y-4">
               <h3>JavaScript</h3>
@@ -46,7 +46,7 @@ const Skills = forwardRef((props, ref) => {
               </div>
             </div>
           </div>
-          <div className="space-y-4">
+          <div className="space-y-4 mt-4 sm:mt-0">
             <div className="space-y-4">
               <h3>c#</h3>
               <div className="bg-white w-full h-3 rounded-full">
@@ -83,7 +83,7 @@ const Skills = forwardRef((props, ref) => {
               </div>
             </div>
           </div>
-          <div className="space-y-4">
+          <div className="space-y-4 mt-4 sm:mt-0">
             <div className="space-y-4">
               <h3>AWS</h3>
               <div className="bg-white w-full h-3 rounded-full">

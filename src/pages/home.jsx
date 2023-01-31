@@ -52,23 +52,23 @@ const Home = () => {
           experienceIn={experienceIn}
           contactIn={contactIn}
         />
-        <div className="scroll-mt-28" >
-          <Landing ScrollToSection={ScrollToSection} ref={landing}/>
+        <div className="scroll-mt-28">
+          <Landing ScrollToSection={ScrollToSection} ref={landing} />
         </div>
         <div className="scroll-mt-28">
-          <About  ref={about}/>
+          <About ref={about} />
         </div>
-        <div className="scroll-mt-28" >
-          <Skills ref={skills}/>
+        <div className="scroll-mt-28">
+          <Skills ref={skills} />
         </div>
-        <div className="scroll-mt-28" >
-          <Services ref={services}/>
+        <div className="scroll-mt-28">
+          <Services ref={services} />
         </div>
-        <div className="scroll-mt-28" >
-          <Experience ref={experience}/>
+        <div className="scroll-mt-28">
+          <Experience ref={experience} />
         </div>
-        <div className="scroll-mt-28" >
-          <Contact ref={contact}/>
+        <div className="scroll-mt-28">
+          <Contact ref={contact} />
         </div>
         <Footer />
       </div>

@@ -3,18 +3,18 @@ import { forwardRef } from "react";
 const About = forwardRef((props, ref) => {
   const width = 2;
   return (
-    <div className="flex justify-center h-screen">
-      <div className=" w-full max-w-6xl">
+    <div className="flex justify-center sm:h-screen mx-4 sm:mx-6 lg:mx-8 xl:0">
+      <div className="w-full max-w-6xl">
         <div>
           <h1 ref={ref} className="scroll-mt-32 font-rubik-bold text-3xl mb-20">
             About Me
           </h1>
         </div>
-        <div className="mx-14 flex justify-center space-x-8">
-          <div className="w-[600px]">
+        <div className="md:mx-14 md:flex justify-center md:space-x-8">
+          <div className="hidden md:block sm:w-[600px] w-[100px]">
             <img className="w-full rounded-full" src={Avatar} />
           </div>
-          <div className=" grid grid-cols-2 gap-8 p-5 rounded-[30px] bg-themeDarker">
+          <div className="w-full md:grid grid-cols-2 gap-8 p-5 rounded-[30px] bg-themeDarker">
             <div className="space-y-4">
               <p className="font-rubik-regular text-white">
                 I am Beauty Tasara, full stack developer from Zimbabwe. I have
@@ -25,7 +25,7 @@ const About = forwardRef((props, ref) => {
                 <a href="mailto:beautytasara27@gmail.com">Download CV</a>
               </button>
             </div>
-            <div className="space-y-4">
+            <div className="space-y-4 mt-8 md:mt-0">
               <div className="space-y-2">
                 <h3>JavaScript</h3>
                 <div className="bg-white w-full h-3 rounded-full">
@@ -48,22 +48,22 @@ const About = forwardRef((props, ref) => {
                 </div>
               </div>
               <div className="space-y-2">
-              <h3>.Net Core</h3>
-              <div className="bg-white w-full h-3 rounded-full">
-                {" "}
-                <div className="rounded-full w-6/12 h-full bg-pynk"></div>
+                <h3>.Net Core</h3>
+                <div className="bg-white w-full h-3 rounded-full">
+                  {" "}
+                  <div className="rounded-full w-6/12 h-full bg-pynk"></div>
+                </div>
               </div>
-            </div>
             </div>
           </div>
         </div>
-        <div className="flex justify-between mt-24">
+        <div className="flex justify-between mt-8 sm:mt-24 mx-4">
           <div className="flex items-center space-x-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              stroke-width="1.5"
+              strokeidth="1.5"
               stroke="currentColor"
               className="w-12 h-12"
             >
@@ -81,7 +81,7 @@ const About = forwardRef((props, ref) => {
 
             <div className="flex-col">
               <h3 className="font-rubik-bold text-3xl">10</h3>
-              <p className="font-rubik-regular">Projects Completed</p>
+              <p className="font-rubik-regular text-xs sm:text-base">Projects Completed</p>
             </div>
           </div>
           <div className="flex items-center space-x-2">
@@ -102,7 +102,7 @@ const About = forwardRef((props, ref) => {
 
             <div className="flex-col">
               <h3 className="font-rubik-bold text-3xl">3</h3>
-              <p className="font-rubik-regular">Clients Satisfied</p>
+              <p className="font-rubik-regular text-xs sm:text-base">Clients Satisfied</p>
             </div>
           </div>
           <div className="flex items-center space-x-2">
@@ -123,10 +123,9 @@ const About = forwardRef((props, ref) => {
 
             <div className="flex-col">
               <h3 className="font-rubik-bold text-3xl">6</h3>
-              <p className="font-rubik-regular">Languages Learned</p>
+              <p className="font-rubik-regular text-xs sm:text-base">Languages Learned</p>
             </div>
           </div>
-        
         </div>
       </div>
     </div>
