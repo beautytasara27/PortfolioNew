@@ -19,10 +19,10 @@ const Landing = forwardRef(({ScrollToSection}, ref) => {
   };
   setInterval(cycleArray, 200);
   return (
-    <div className="flex justify-center h-screen items-center my-10">
+    <div ref={ref} className="flex justify-center h-screen items-center mt-10 mx-4 sm:mx-6 lg:mx-8 xl:0">
       <div className="w-full max-w-6xl">
         <div className="flex justify-center">
-          <div ref={ref}  className="space-y-8">
+          <div  className="space-y-8">
             <div className="flex justify-center">
               {" "}
               <img className="w-[100px] rounded-full" src={Avatar} />

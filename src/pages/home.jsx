@@ -12,6 +12,7 @@ import Node from "../../src/assets/images/node.png";
 import Visual from "../../src/assets/images/java.png";
 import npm from "../../src/assets/images/npm.png";
 import useIsInViewport from "../helpers/useOnScreen";
+import Projects from "../components/Projects";
 const Home = () => {
   const landing = useRef(null);
   const about = useRef(null);
@@ -19,6 +20,7 @@ const Home = () => {
   const services = useRef(null);
   const experience = useRef(null);
   const contact = useRef(null);
+  const projects = useRef(null);
   const ScrollToSection = (section) => {
     if (section === "landing") {
       landing.current.scrollIntoView();
@@ -32,6 +34,8 @@ const Home = () => {
       experience.current.scrollIntoView();
     } else if (section === "contact") {
       contact.current.scrollIntoView();
+    } else if (section === "projects") {
+      projects.current.scrollIntoView();
     }
   };
   const landingIn = useIsInViewport(landing);
@@ -40,6 +44,7 @@ const Home = () => {
   const aboutIn = useIsInViewport(about);
   const experienceIn = useIsInViewport(experience);
   const contactIn = useIsInViewport(contact);
+  const projectsIn = useIsInViewport(projects);
   return (
     <div className="relative">
       <div className=" ">
@@ -51,6 +56,7 @@ const Home = () => {
           skillsIn={skillsIn}
           experienceIn={experienceIn}
           contactIn={contactIn}
+          projectsIn={projectsIn}
         />
         <div className="scroll-mt-28">
           <Landing ScrollToSection={ScrollToSection} ref={landing} />
@@ -66,6 +72,9 @@ const Home = () => {
         </div>
         <div className="scroll-mt-28">
           <Experience ref={experience} />
+        </div>
+        <div className="scroll-mt-28">
+          <Projects ref={projects} />
         </div>
         <div className="scroll-mt-28">
           <Contact ref={contact} />

@@ -1,7 +1,7 @@
 import {forwardRef} from "react";
 const Experience = forwardRef((props,ref) => {
   return (
-    <div className="flex justify-center sm:h-screen  mt-10 sm:mt-0 mx-4 sm:mx-6 lg:mx-8 xl:0">
+    <div className="flex justify-center sm:h-screen mt-10 sm:mt-0 mx-4 sm:mx-6 lg:mx-8 xl:0">
       <div className="w-full max-w-6xl font-rubik-regular">
         <div>
           <h1 ref={ref} className="scroll-mt-32 font-rubik-bold text-3xl mb-20">

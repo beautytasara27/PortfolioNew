@@ -7,11 +7,12 @@ const Header = ({
   aboutIn,
   experienceIn,
   contactIn,
+  projectsIn
 }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="flex justify-center ">
-      <div className="fixed top-0 w-full flex justify-center font-rubik-bold py-6 bg-theme border-b  border-gray-500">
+      <div className="fixed top-0 w-full flex justify-center font-rubik-bold py-2 sm:py-6 bg-theme border-b  border-gray-500">
         <div className="w-full flex justify-between items-center  max-w-6xl relative mx-4 sm:mx-6 lg:mx-8 xl:0">
           <div className="w-2/5">
             <h1 className="text-3xl font-bold">Beauty</h1>
@@ -46,6 +47,12 @@ const Header = ({
               onClick={() => ScrollToSection("experience")}
             >
               Experience
+            </h2>
+            <h2
+              className={projectsIn ? "text-yello" : ""}
+              onClick={() => ScrollToSection("projects")}
+            >
+              Projects
             </h2>
             <h2
               className={contactIn ? "text-yello" : ""}
