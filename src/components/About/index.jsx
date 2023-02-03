@@ -1,4 +1,4 @@
-import Avatar from "../../assets/images/beauty.jpg";
+import Avatar from "../../assets/images/avatar.jpg";
 import { forwardRef } from "react";
 const About = forwardRef((props, ref) => {
   const width = 2;

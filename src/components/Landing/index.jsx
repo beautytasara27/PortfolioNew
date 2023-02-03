@@ -1,6 +1,6 @@
 import { TypeAnimation } from "react-type-animation";
 import { useState ,forwardRef} from "react";
-import Avatar from "../../assets/images/beauty.jpg";
+import Avatar from "../../assets/images/avatar.jpg";
 const Landing = forwardRef(({ScrollToSection}, ref) => {
   const [labelValue, setLabelValue] = useState("");
   const labels = ["Web Applications", "Mobile Applications", "APIs"];

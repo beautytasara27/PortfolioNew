@@ -19,7 +19,7 @@ const Services = forwardRef((props, ref) => {
             <h2 className="font-rubik-bold text-lg">Web App Development</h2>
             <p className="font-rubik-regular">
               I am an experienced web app developer. Working mostly in JS
-              frameworks like React, Vue, Next
+              frameworks like React, Next
             </p>
           </div>
           <div className="sm:w-1/3 p-5 flex flex-col items-center rounded-[30px] space-y-4 bg-yello shadow-2xl shadow-gray-500">
