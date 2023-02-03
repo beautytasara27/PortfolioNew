@@ -1,4 +1,4 @@
-import Avatar from "../../assets/images/avatar.jpg";
+import Avatar from "../../assets/images/beauty.jpg";
 import { forwardRef } from "react";
 const About = forwardRef((props, ref) => {
   const width = 2;
@@ -22,7 +22,7 @@ const About = forwardRef((props, ref) => {
                 especially in Frontend.
               </p>
               <button className="bg-red-500 hover:bg-transparent hover:border hover:animate-bounce py-3 px-6 font-rubik-bold text-base rounded-[30px]">
-                <a href="mailto:beautytasara27@gmail.com">Download CV</a>
+                <a target="_blank" href="https://drive.google.com/uc?export=download&id=1e3Bl2X6UT0ApiH3PLN0Ov4pdflNb83Ng">Download CV</a>
               </button>
             </div>
             <div className="space-y-4 mt-8 md:mt-0">

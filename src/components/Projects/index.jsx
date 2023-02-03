@@ -14,7 +14,7 @@ const Projects = forwardRef((props, ref) => {
         {projects &&
         <div className="sm:grid grid-cols-2 lg:grid-cols-3 gap-4 space-y-4 sm:space-y-0">
           {projects.map((project) => (
-            <div key={project.projectId}>
+            <div className="" key={project.projectId}>
               <ProjectThumbnail project={project} />
             </div>
           ))}

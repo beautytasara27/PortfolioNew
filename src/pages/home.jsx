@@ -23,19 +23,19 @@ const Home = () => {
   const projects = useRef(null);
   const ScrollToSection = (section) => {
     if (section === "landing") {
-      landing.current.scrollIntoView();
+      landing.current.scrollIntoView({ behavior: 'smooth', block: 'start'});
     } else if (section === "about") {
-      about.current.scrollIntoView();
+      about.current.scrollIntoView({ behavior: 'smooth', block: 'start'});
     } else if (section === "skills") {
-      skills.current.scrollIntoView();
+      skills.current.scrollIntoView({ behavior: 'smooth', block: 'start'});
     } else if (section === "services") {
-      services.current.scrollIntoView();
+      services.current.scrollIntoView({ behavior: 'smooth', block: 'start'});
     } else if (section === "experience") {
-      experience.current.scrollIntoView();
+      experience.current.scrollIntoView({ behavior: 'smooth', block: 'start'});
     } else if (section === "contact") {
-      contact.current.scrollIntoView();
+      contact.current.scrollIntoView({ behavior: 'smooth', block: 'start'});
     } else if (section === "projects") {
-      projects.current.scrollIntoView();
+      projects.current.scrollIntoView({ behavior: 'smooth', block: 'start'});
     }
   };
   const landingIn = useIsInViewport(landing);

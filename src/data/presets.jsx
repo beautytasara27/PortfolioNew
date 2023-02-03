@@ -1,4 +1,39 @@
 export const initialState = [
+  {
+    projectId: "100",
+    Date: "Dec 10, 2022",
+    projectName: "Library Website",
+    Languages: ["Javascript"],
+    Frameworks: ["ReactJS"],
+    paragraphs: [
+      {
+        Title: "Overview",
+        Description:
+          "I built this project to practice more with React and tailwind, I used the Open Library API for search queries.",
+      },
+    ],
+    Url: "https://github.com/beautytasara27/LibraryWeb",
+    imageUrl: "Images/Altonium/alto2.png",
+    video:
+      "https://www.youtube.com/embed/RmU-EzRo6x8",
+    images: [
+      "Images/Altonium/alto1.png",
+      "Images/Altonium/alto2.png",
+      "Images/Altonium/alto3.png",
+      "Images/Altonium/alto4.png",
+    ],
+    links: [
+      {
+        name:"Github",
+        url:"https://github.com/beautytasara27/LibraryWeb"
+      },
+      {
+        name:"Live",
+        url:"https://library-7722.netlify.app/"
+      }
+    ]
+    ,
+  },
     {
       projectId: "0",
       Date: "March 16, 2022",
@@ -12,7 +47,7 @@ export const initialState = [
             "I worked on this project with the team at Altonium. It is an online casino where users can register, play games and bet online. In this project I participated in the design and development of the front-end. We leveraged some of the best features of NextJS like SEO optimization and static rendering.",
         },
       ],
-      Url: "",
+      Url: "https://drive.google.com/drive/u/0/folders/1_GM2LRqeA_33cquEH9MCRwskv5_us5WP",
       imageUrl: "Images/Altonium/alto2.png",
       video:
         "https://www.youtube.com/embed/RmU-EzRo6x8",
@@ -21,29 +56,6 @@ export const initialState = [
         "Images/Altonium/alto2.png",
         "Images/Altonium/alto3.png",
         "Images/Altonium/alto4.png",
-      ],
-      links: [],
-    },
-    {
-      projectId: "1",
-      Date: "August 16, 2022",
-      projectName: "Ecommerce Shop",
-      Languages: ["Javascript", ", GraphQl"],
-      Frameworks: ["ReactJS", ", Apollo Client"],
-      paragraphs: [
-        {
-          Title: "Overview",
-          Description:
-            "I am working on this project to learn GraphQl framework and to demonstrate good React JS practices for building an ecommerce website.",
-        },
-      ],
-      Url: "",
-      imageUrl: "Images/Scandi/scandi1.png",
-      video: "",
-      images: [
-        "Images/Scandi/scandi1.png",
-        "Images/Scandi/scandi2.png",
-        "Images/Scandi/scandi3.png",
       ],
       links: [],
     },
@@ -60,7 +72,7 @@ export const initialState = [
             "This is a solo project I am working on. I hope to demonstrate my skills in ReactJS and C#. In this project I leverage the best features of the .Net ecosystem to build a RESTful API and connect it to a React client.",
         },
       ],
-      Url: "",
+      Url: "https://github.com/beautytasara27/com.muse-shop.web",
       imageUrl: "Images/Muse/muse.png",
       video: "",
       images: ["Images/Muse/muse.png"],
@@ -296,49 +308,6 @@ export const initialState = [
           url: "https://github.com/beautytasara27/ShortestPathCPP",
         },
       ],
-    },
-    {
-      projectId: "11",
-      Date: "July 2, 2019",
-      projectName: "Java Swing Beauty Spa",
-      Languages: ["Java"],
-      Frameworks: ["Swing"],
-      paragraphs: [
-        {
-          Title: "Overview",
-          Description:
-            "This is a sample beauty spa. It is developed using Java Swing. The project simulates beauty spa booking service. The emphasis on the project is to demonstrate knowledge of Java and OOP.",
-        },
-      ],
-      Url: "https://drive.google.com/file/d/14wzfk3hEdKzQ16aOSAcWEMkB4hr0PmyE/view?usp=sharing",
-      imageUrl: "Images/BeautyShop/beautyshoperd.png",
-      video: "https://www.youtube.com/embed/PoYc15tC7Ps",
-      images: ["Images/BeautyShop/beautyshoperd.png"],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/beautytasara27/ShortestPathCPP",
-        },
-      ],
-    },
-    {
-      projectId: "12",
-      Date: "July 2, 2019",
-      projectName: "Java Swing Beauty Shop",
-      Languages: ["Java"],
-      Frameworks: ["Swing"],
-      paragraphs: [
-        {
-          Title: "Overview",
-          Description:
-            "This is a sample beauty shop. It is developed using Java Swing. The project simulates an ecommerce application. The emphasis on this project is the database design.",
-        },
-      ],
-      Url: "https://drive.google.com/file/d/14wzfk3hEdKzQ16aOSAcWEMkB4hr0PmyE/view?usp=sharing",
-      imageUrl: "Images/BeautyShop/beautyshoperd.png",
-      video: "https://www.youtube.com/embed/flC_KM6A6Mo",
-      images: ["Images/BeautyShop/beautyshoperd.png"],
-      links: [],
-    },
+    }
   ];
   
