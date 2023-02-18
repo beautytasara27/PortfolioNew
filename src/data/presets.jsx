@@ -96,7 +96,7 @@ export const initialState = [
             "In this project I explore the field of computer vision. I applied transfer learning to a fruit sorting problem based on image classification. I compared various architectures pretrained on Imagenet and provided a detailed comparison on the architectures (Resnet50, VGG16, and MobilenetV3-small. I published a paper in the 2022 ICISS Conference based on this research.",
         },
       ],
-      Url: "",
+      Url: "https://github.com/beautytasara27/com.muse-shop.web",
       imageUrl: "Images/FruitSorting/API.png",
       video:
         "https://drive.google.com/file/d/1C8P5cAhYCTLgGAhqac9N1ltr9U0Y11j0/preview",
@@ -129,7 +129,7 @@ export const initialState = [
             "This project was a challenge I took upon deciding to venture into computer vision. My supervisor advised me to write my own library like keras so that I could understand the obscure mechanisms of the Keras Library better when I use it to solve other problems. This is far from perfect but I managed to make it work on the Mnist Dataset.",
         },
       ],
-      Url: "",
+      Url: "https://github.com/beautytasara27/CNN-python",
       imageUrl: "Images/CNN/cnn1.png",
       video: "",
       images: [
@@ -157,7 +157,7 @@ export const initialState = [
             "I participated in the development of this project at Earth Digital. I was involved in the fullstack development of this application. This software is intended to be used by all the stakeholders in the process of letting out a property, to manage the workflow, and data associated with the entire process. It is envisaged that every aspect of the process of letting out a property can be managed through this piece of software, platform, and device independently.",
         },
       ],
-      Url: "",
+      Url: "https://drive.google.com/file/d/1SHhRVi60sWKtg3kCLsXxAHMFFyyrqjDc/preview",
       imageUrl: "Images/MobileProperty/mobile.png",
       video: "",
       images: ["Images/MobileProperty/mobile.png"],
