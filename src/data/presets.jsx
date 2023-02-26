@@ -1,4 +1,58 @@
 export const initialState = [
+      {
+    projectId: "-110",
+    Date: "Jan 20, 2022",
+    projectName: "Portfolio for Programmer",
+    Languages: ["Javascript"],
+    Frameworks: ["ReactJS", "Taiwind CSS"],
+    paragraphs: [
+      {
+        Title: "Overview",
+        Description:
+          "Developed interactive frontends for clients’ portfolios using ReactJS and JavaScript, CSS, Tailwind CSS.",
+      },
+    ],
+    Url: "https://ngls-plato.netlify.app/",
+    imageUrl: "Images/Altonium/alto2.png",
+    video:
+      "",
+    images: [
+    ],
+    links: [
+      {
+        name:"Github",
+        url:"https://github.com/beautytasara27/portfoliongls"
+      }
+    ]
+    ,
+  },
+    {
+    projectId: "-100",
+    Date: "Jan 20, 2022",
+    projectName: "Computerized Adaptive Testing",
+    Languages: ["Javascript", "Python"],
+    Frameworks: ["ReactJS", "Flask"],
+    paragraphs: [
+      {
+        Title: "Overview",
+        Description:
+          "I built this project for my client who is building a recruitment website. The algorithm used predicts the next question administered to the examinee based on the examinee’s previous ability to answer prior questions, hence it is adaptive. It uses Item Response Theory and I used Catsim Library for the IRT.",
+      },
+    ],
+    Url: "https://github.com/beautytasara27/cat-backend",
+    imageUrl: "Images/Altonium/alto2.png",
+    video:
+      "",
+    images: [
+    ],
+    links: [
+      {
+        name:"Github",
+        url:"https://github.com/beautytasara27/cat-backend"
+      }
+    ]
+    ,
+  },
   {
     projectId: "100",
     Date: "Dec 10, 2022",
