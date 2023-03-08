@@ -13,9 +13,9 @@ const Header = ({
   return (
     <div className="flex justify-center ">
       <div className="fixed top-0 w-full flex justify-center font-rubik-bold py-2 sm:py-6 bg-theme border-b  border-gray-500">
-        <div className="w-full flex justify-between items-center  max-w-6xl relative mx-4 sm:mx-6 lg:mx-8 xl:0">
+        <div className="w-full flex justify-between items-center  max-w-6xl relative mx-0 sm:mx-6 lg:mx-8 xl:0">
           <div className="w-2/5">
-            <h1 className="text-3xl font-bold">Beauty</h1>
+            <h1 className="text-3xl font-bold ml-4 sm:ml-0">Beauty</h1>
           </div>
           <div className="hidden md:flex text-base justify-start flex-grow space-x-8">
             <h2
@@ -77,7 +77,7 @@ const Header = ({
             />
           </svg>
           {menuOpen && (
-            <div className="absolute top-20 z-15 w-full bg-theme text-base justify-start flex-grow space-y-4 p-5 border-b border-gray-500" onClick={()=>setMenuOpen(!menuOpen)}>
+            <div className="absolute top-10 z-15 w-full bg-theme text-base justify-start flex-grow space-y-4 p-5 border-b border-gray-500" onClick={()=>setMenuOpen(!menuOpen)}>
               <h2
                 className={landingIn ? "text-yello" : ""}
                 onClick={() => ScrollToSection("landing")}

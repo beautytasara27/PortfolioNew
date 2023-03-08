@@ -1,4 +1,5 @@
-import Avatar from "../../assets/images/avatar.jpg";
+import Avatar from "../../assets/images/avatar2.jpg";
+import SkillsBar from "../Skills/skillsbar";
 import { forwardRef } from "react";
 const About = forwardRef((props, ref) => {
   const width = 2;
@@ -10,48 +11,46 @@ const About = forwardRef((props, ref) => {
             About Me
           </h1>
         </div>
-        <div className="md:mx-14 md:flex justify-center md:space-x-8">
-          <div className="hidden md:block sm:w-[600px] w-[100px]">
+        <div className="md:mx-14 md:flex justify-center items-center md:space-x-8">
+          <div className="hidden md:block sm:w-[200px] w-[100px]">
             <img className="w-full rounded-full" src={Avatar} />
           </div>
           <div className="w-full md:grid grid-cols-2 gap-8 p-5 rounded-[30px] bg-themeDarker">
             <div className="space-y-4">
               <p className="font-rubik-regular text-white">
-                I am Beauty Tasara, full stack developer from Zimbabwe. I have
-                rich experience in building small to medium scale applications,
-                especially in Frontend.
+                I am passionate about buiding stuff for the web. My projects range from full-stack applications, interactive frontends, REST APIs, etc.
               </p>
               <button className="bg-red-500 hover:bg-transparent hover:border hover:animate-bounce py-3 px-6 font-rubik-bold text-base rounded-[30px]">
-                <a target="_blank" href="https://drive.google.com/uc?export=download&id=1e3Bl2X6UT0ApiH3PLN0Ov4pdflNb83Ng">Download CV</a>
+                <a target="_blank" href="https://drive.google.com/uc?export=download&id=1e3Bl2X6UT0ApiH3PLN0Ov4pdflNb83Ng">Download my CV</a>
               </button>
             </div>
             <div className="space-y-4 mt-8 md:mt-0">
               <div className="space-y-2">
                 <h3>JavaScript</h3>
-                <div className="bg-white w-full h-3 rounded-full">
+                <div className="bg-white w-full h-2 rounded-full">
                   {" "}
-                  <div className="rounded-full w-11/12 h-full bg-red-500"></div>
+                  <SkillsBar value={"70"} color={"rgb(132 204 22)"}/>
                 </div>
               </div>
               <div className="space-y-2">
                 <h3>React</h3>
-                <div className="bg-white w-full h-3 rounded-full">
+                <div className="bg-white w-full h-2 rounded-full">
                   {" "}
-                  <div className="rounded-full w-8/12 h-full bg-blue-500"></div>
+                  <SkillsBar value={"60"} color={"rgb(245 158 11)"}/>
                 </div>
               </div>
               <div className="space-y-2">
                 <h3>c#</h3>
-                <div className="bg-white w-full h-3 rounded-full">
+                <div className="bg-white w-full h-2 rounded-full">
                   {" "}
-                  <div className="rounded-full w-6/12 h-full bg-yellow-500"></div>
+                  <SkillsBar value={"70"} color={"rgb(6 182 212)"}/>
                 </div>
               </div>
               <div className="space-y-2">
                 <h3>.Net Core</h3>
-                <div className="bg-white w-full h-3 rounded-full">
+                <div className="bg-white w-full h-2 rounded-full">
                   {" "}
-                  <div className="rounded-full w-6/12 h-full bg-pynk"></div>
+                  <SkillsBar value={"50"} color={"rgb(168 85 247)"}/>
                 </div>
               </div>
             </div>

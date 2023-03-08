@@ -44,6 +44,22 @@ const Experience = forwardRef((props,ref) => {
             </div>
           </div>
           <div className="bg-themeDarker rounded-[30px] p-5">
+          <div className="flex space-x-4">
+          <div className="flex">
+            <div className="flex flex-col items-center text-pynk space-y-1">
+              <i class="fa-solid fa-briefcase"></i>
+              <span className="border-l border-pynk h-24"></span>
+            </div>
+          </div>
+          <div className="space-y-2">
+            <p className="text-gray-400">01/2023-Present</p>
+            <h3 className="font-rubik-bold">JavaScript Developer</h3>
+            <p>
+              I am working as a Freelance Developer building web stuff with tech
+              stack : React, Preact, Tailwind, Deno, Fresh.
+            </p>
+          </div>
+        </div>
             <div className="flex space-x-4">
               <div className="flex">
                 <div className="flex flex-col items-center text-pynk space-y-1">
@@ -52,10 +68,10 @@ const Experience = forwardRef((props,ref) => {
                 </div>
               </div>
               <div className="space-y-2">
-                <p className="text-gray-400">03/2022-Present</p>
+                <p className="text-gray-400">03/2022-12/2022</p>
                 <h3 className="font-rubik-bold">JavaScript Developer</h3>
                 <p>
-                  I am working as a JavaScript Developer at Altonium with tech
+                  I am worked as a JavaScript Developer at Altonium with tech
                   stack : React, Next, Tailwind.
                 </p>
               </div>

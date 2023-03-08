@@ -18,30 +18,34 @@ const Contact = forwardRef((props, ref) => {
               </a>
             </p>
           </div>
-          <form className=" md:w-2/3 space-y-8 text-black">
+          <form className=" md:w-2/3 space-y-8 text-black" data-netlify="true" name="contact">
             <div className="md:flex md:space-x-8 w-full space-y-8 md:space-y-0">
               <input
+              name="name" 
                 className="md:w-1/2 w-full rounded-[30px] p-4 "
                 placeholder="Your name"
               />
               <input
+              name="email" 
                 className="md:w-1/2 w-full rounded-[30px] p-4"
                 placeholder="Email Address"
               />
             </div>
             <div className="w-full">
               <input
+              name="subject" 
                 className="w-full rounded-[30px] p-4"
                 placeholder="Subject"
               />
             </div>
             <div className="w-full">
               <input
+              name="message" 
                 className="w-full rounded-[30px] p-4"
                 placeholder="Message"
               />
             </div>{" "}
-            <button className="bg-red-500 text-white hover:bg-transparent hover:border hover:animate-bounce py-3 px-6 font-rubik-bold text-base rounded-[30px]">
+            <button type="submit" className="bg-red-500 text-white hover:bg-transparent hover:border hover:animate-bounce py-3 px-6 font-rubik-bold text-base rounded-[30px]">
             <a href="mailto:beautytasara27@gmail.com">Send Message</a>
           </button>
           </form>

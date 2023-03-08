@@ -1,6 +1,6 @@
 import { TypeAnimation } from "react-type-animation";
 import { useState ,forwardRef} from "react";
-import Avatar from "../../assets/images/avatar.jpg";
+import Avatar from "../../assets/images/avatar2.jpg";
 const Landing = forwardRef(({ScrollToSection}, ref) => {
   const [labelValue, setLabelValue] = useState("");
   const labels = ["Web Applications", "Mobile Applications", "APIs"];
@@ -32,7 +32,7 @@ const Landing = forwardRef(({ScrollToSection}, ref) => {
               Beauty Tatenda Tasara
             </h1>
             <h2 className="font-rubik-bold text-xl text-center">
-              Software Engineer
+              Software Developer
             </h2>
 
             <p className="text-center font-rubik-regular">
