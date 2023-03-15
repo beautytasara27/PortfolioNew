@@ -1,19 +1,22 @@
-import {forwardRef} from "react";
-const Experience = forwardRef((props,ref) => {
+import { forwardRef } from "react";
+const Experience = forwardRef((props, ref) => {
+  if (props.experienceIn) {
+    document.getElementById("education").classList.add("education");
+  }
   return (
-    <div className="flex justify-center sm:h-screen mt-10 sm:mt-0 mx-4 sm:mx-6 lg:mx-8 xl:0">
+    <div className="flex justify-center mt-10 sm:mt-20 mx-4 sm:mx-6 lg:mx-8 xl:0">
       <div className="w-full max-w-6xl font-rubik-regular">
         <div>
           <h1 ref={ref} className="scroll-mt-32 font-rubik-bold text-3xl mb-20">
             Experience
           </h1>
         </div>
-        <div  className="sm:flex sm:space-x-8">
+        <div id="education"  className="sm:flex sm:space-x-8">
           <div className="bg-themeDarker rounded-[30px] p-5">
             <div className="flex space-x-4">
               <div className="flex">
                 <div className="flex flex-col items-center text-pynk space-y-1">
-                <i class="fa-solid fa-graduation-cap"></i>
+                  <i class="fa-solid fa-graduation-cap"></i>
                   <span className="border-l border-pynk h-24"></span>
                 </div>
               </div>
@@ -29,7 +32,7 @@ const Experience = forwardRef((props,ref) => {
             <div className="flex space-x-4 mt-1">
               <div className="flex">
                 <div className="flex flex-col items-center text-pynk space-y-1">
-                <i class="fa-solid fa-graduation-cap"></i>
+                  <i class="fa-solid fa-graduation-cap"></i>
                   <span className="border-l border-pynk h-24"></span>
                 </div>
               </div>
@@ -44,22 +47,22 @@ const Experience = forwardRef((props,ref) => {
             </div>
           </div>
           <div className="bg-themeDarker rounded-[30px] p-5">
-          <div className="flex space-x-4">
-          <div className="flex">
-            <div className="flex flex-col items-center text-pynk space-y-1">
-              <i class="fa-solid fa-briefcase"></i>
-              <span className="border-l border-pynk h-24"></span>
+            <div className="flex space-x-4">
+              <div className="flex">
+                <div className="flex flex-col items-center text-pynk space-y-1">
+                  <i class="fa-solid fa-briefcase"></i>
+                  <span className="border-l border-pynk h-24"></span>
+                </div>
+              </div>
+              <div className="space-y-2">
+                <p className="text-gray-400">01/2023-Present</p>
+                <h3 className="font-rubik-bold">JavaScript Developer</h3>
+                <p>
+                  I am working as a Freelance Developer building web stuff with
+                  tech stack : React, Preact, Tailwind, Deno, Fresh.
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="space-y-2">
-            <p className="text-gray-400">01/2023-Present</p>
-            <h3 className="font-rubik-bold">JavaScript Developer</h3>
-            <p>
-              I am working as a Freelance Developer building web stuff with tech
-              stack : React, Preact, Tailwind, Deno, Fresh.
-            </p>
-          </div>
-        </div>
             <div className="flex space-x-4">
               <div className="flex">
                 <div className="flex flex-col items-center text-pynk space-y-1">
@@ -109,20 +112,21 @@ const Experience = forwardRef((props,ref) => {
               </div>
             </div>
             <div className="flex space-x-4 mt-1">
-            <div className="flex">
-              <div className="flex flex-col items-center text-pynk space-y-1">
-                <i class="fa-solid fa-briefcase"></i>
-                <span className="border-l border-pynk h-24"></span>
+              <div className="flex">
+                <div className="flex flex-col items-center text-pynk space-y-1">
+                  <i class="fa-solid fa-briefcase"></i>
+                  <span className="border-l border-pynk h-24"></span>
+                </div>
+              </div>
+              <div className="space-y-2">
+                <p className="text-gray-400">09/2020-02/2021</p>
+                <h3 className="font-rubik-bold">Teaching Assistant</h3>
+                <p>
+                  I worked as a Teaching assistant for Database Systems at Binus
+                  University. Tech stack : SQL, MongoDB, SQL Server, GCP.
+                </p>
               </div>
             </div>
-            <div className="space-y-2">
-              <p className="text-gray-400">09/2020-02/2021</p>
-              <h3 className="font-rubik-bold">Teaching Assistant</h3>
-              <p>
-                I worked as a Teaching assistant for Database Systems at Binus University. Tech stack : SQL, MongoDB, SQL Server, GCP.
-              </p>
-            </div>
-          </div>
           </div>
         </div>
       </div>

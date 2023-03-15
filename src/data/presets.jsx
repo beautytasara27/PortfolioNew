@@ -9,7 +9,7 @@ export const initialState = [
       {
         Title: "Overview",
         Description:
-          "Developed interactive frontends for clients’ portfolios using ReactJS and JavaScript, CSS, Tailwind CSS.",
+          "Developed interactive frontend for a clients’ portfolios using ReactJS and JavaScript, CSS, Tailwind CSS.",
       },
     ],
     Url: "https://ngls-plato.netlify.app/",
@@ -178,45 +178,45 @@ export const initialState = [
         },
       ],
     },
-    {
-      projectId: "4",
-      Date: "September 09, 2021",
-      projectName: "Property Management Mobile",
-      Languages: ["C#"],
-      Frameworks: ["ASP.NET Core", "Xamarin"],
-      paragraphs: [
-        {
-          Title: "Overview",
-          Description:
-            "I participated in the development of this project at Earth Digital. I was involved in the fullstack development of this application. This software is intended to be used by all the stakeholders in the process of letting out a property, to manage the workflow, and data associated with the entire process. It is envisaged that every aspect of the process of letting out a property can be managed through this piece of software, platform, and device independently.",
-        },
-      ],
-      Url: "https://drive.google.com/file/d/1SHhRVi60sWKtg3kCLsXxAHMFFyyrqjDc/preview",
-      imageUrl: "Images/MobileProperty/mobile.png",
-      video: "",
-      images: ["Images/MobileProperty/mobile.png"],
-      links: [],
-    },
-    {
-      projectId: "5",
-      Date: "May 28, 2021",
-      projectName: "Property Management Web",
-      Languages: ["C#"],
-      Frameworks: ["ASP.NET Core", "Xamarin"],
-      paragraphs: [
-        {
-          Title: "Overview",
-          Description:
-            "I participated in the development of this project at Earth Digital. I was involved in the fullstack development of this application. This software is a dashboard application that different type of users can login to let out, rent , manage, fix a property. We used Blazor for client side to leverage all the benefits of the .Net ecosystem including sharing libraries.",
-        },
-      ],
-      Url: "",
-      imageUrl: "Images/WebProperty/Web.png",
-      video:
-        "https://drive.google.com/file/d/1SHhRVi60sWKtg3kCLsXxAHMFFyyrqjDc/preview",
-      images: ["Images/WebProperty/Web.png"],
-      links: [],
-    },
+    // {
+    //   projectId: "4",
+    //   Date: "September 09, 2021",
+    //   projectName: "Property Management Mobile",
+    //   Languages: ["C#"],
+    //   Frameworks: ["ASP.NET Core", "Xamarin"],
+    //   paragraphs: [
+    //     {
+    //       Title: "Overview",
+    //       Description:
+    //         "I participated in the development of this project at Earth Digital. I was involved in the fullstack development of this application. This software is intended to be used by all the stakeholders in the process of letting out a property, to manage the workflow, and data associated with the entire process. It is envisaged that every aspect of the process of letting out a property can be managed through this piece of software, platform, and device independently.",
+    //     },
+    //   ],
+    //   Url: "https://drive.google.com/file/d/1SHhRVi60sWKtg3kCLsXxAHMFFyyrqjDc/preview",
+    //   imageUrl: "Images/MobileProperty/mobile.png",
+    //   video: "",
+    //   images: ["Images/MobileProperty/mobile.png"],
+    //   links: [],
+    // },
+    // {
+    //   projectId: "5",
+    //   Date: "May 28, 2021",
+    //   projectName: "Property Management Web",
+    //   Languages: ["C#"],
+    //   Frameworks: ["ASP.NET Core", "Xamarin"],
+    //   paragraphs: [
+    //     {
+    //       Title: "Overview",
+    //       Description:
+    //         "I participated in the development of this project at Earth Digital. I was involved in the fullstack development of this application. This software is a dashboard application that different type of users can login to let out, rent , manage, fix a property. We used Blazor for client side to leverage all the benefits of the .Net ecosystem including sharing libraries.",
+    //     },
+    //   ],
+    //   Url: "",
+    //   imageUrl: "Images/WebProperty/Web.png",
+    //   video:
+    //     "https://drive.google.com/file/d/1SHhRVi60sWKtg3kCLsXxAHMFFyyrqjDc/preview",
+    //   images: ["Images/WebProperty/Web.png"],
+    //   links: [],
+    // },
     {
       projectId: "6",
       Date: "January 18, 2021",

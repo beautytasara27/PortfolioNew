@@ -40,9 +40,9 @@ const Landing = forwardRef(({ScrollToSection}, ref) => {
               I develop{" "}
               <TypeAnimation
                 sequence={[
-                  "Full Stack Web Apps", // Types 'One'
+                  "Back-end stuff", // Types 'One'
                   1000, // Waits 1s
-                  "Mobile Apps", // Deletes 'One' and types 'Two'
+                  "Front-end stuff", // Deletes 'One' and types 'Two'
                   2000, // Waits 2s
                   () => {
                     console.log("Done typing!"); // Place optional callbacks anywhere in the array

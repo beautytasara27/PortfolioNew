@@ -7,10 +7,6 @@ import Services from "../components/Services";
 import Experience from "../components/Experience";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
-import Rea from "../../src/assets/images/react.png";
-import Node from "../../src/assets/images/node.png";
-import Visual from "../../src/assets/images/java.png";
-import npm from "../../src/assets/images/npm.png";
 import useIsInViewport from "../helpers/useOnScreen";
 import Projects from "../components/Projects";
 const Home = () => {
@@ -62,16 +58,16 @@ const Home = () => {
           <Landing ScrollToSection={ScrollToSection} ref={landing} />
         </div>
         <div className="scroll-mt-28">
-          <About ref={about} />
+          <About ref={about} aboutIn={aboutIn}/>
         </div>
         <div className="scroll-mt-28">
-          <Skills ref={skills} />
+          <Skills ref={skills} skillsIn={skillsIn}/>
         </div>
         <div className="scroll-mt-28">
           <Services ref={services} />
         </div>
         <div className="scroll-mt-28">
-          <Experience ref={experience} />
+          <Experience ref={experience} experienceIn={experienceIn}/>
         </div>
         <div className="scroll-mt-28">
           <Projects ref={projects} />

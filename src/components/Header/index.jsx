@@ -17,7 +17,7 @@ const Header = ({
           <div className="w-2/5">
             <h1 className="text-3xl font-bold ml-4 sm:ml-0">Beauty</h1>
           </div>
-          <div className="hidden md:flex text-base justify-start flex-grow space-x-8">
+          <header className="hidden md:flex text-base justify-start flex-grow space-x-8 header">
             <h2
               className={landingIn ? "text-yello" : ""}
               onClick={() => ScrollToSection("landing")}
@@ -60,7 +60,7 @@ const Header = ({
             >
               Contact
             </h2>
-          </div>
+          </header>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
